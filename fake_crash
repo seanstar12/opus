@@ -1,0 +1,28 @@
+  pool: Data
+ state: ONLINE
+ scrub: none requested
+config:
+
+	NAME        STATE     READ WRITE CKSUM
+	Data        ONLINE       0     0     0
+	  raidz1    ONLINE       0     0     0
+	    sdh     ONLINE       0     0     0
+	    sde     UNAVAIL      0     0     0
+	    sdf     ONLINE       0     0     0
+
+errors: No known data errors
+
+  pool: Media
+ state: ONLINE
+ scrub: none requested
+config:
+
+	NAME        STATE     READ WRITE CKSUM
+	Media       ONLINE       0     0     0
+	  raidz1    ONLINE       0     0     0
+	    sdd     ONLINE       0     0     0
+	    sdg     ONLINE       0     0     0
+	    sdc     ONLINE       0     0     0
+	    sdb     ONLINE       0     0     0
+
+errors: No known data errors
